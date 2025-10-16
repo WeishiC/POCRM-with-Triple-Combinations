@@ -4,7 +4,7 @@ This repository contains code used for the paper _Applying the partial order con
 ## Structure
 - The folder `R functions` contains R function files:
   - `Orderings.R` contains code to simulate all possible orderings.
-- The folder `Data` contains RDatas 
+- The folder `RData` contains RDatas 
   - `148Orderings.RData` contains all 148 possible orderings for the 12 combinations example.
 
 ## Dependencies
