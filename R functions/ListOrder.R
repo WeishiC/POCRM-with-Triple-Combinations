@@ -2,6 +2,7 @@
 #  List out all possible orderings
 #   Motivating example 1 (used in the paper) with 12 combinations
 #
+source("SimScen.R")
 dim1 <- 3
 dim2 <- 4
 dim3 <- 2
