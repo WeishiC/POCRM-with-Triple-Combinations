@@ -3,7 +3,8 @@ This repository contains code used for the paper _Applying the partial order con
 
 ## Structure
 - The folder `R functions` contains R function files:
-  - `Orderings.R` contains code to simulate all possible orderings.
+  - `SimScen.R` contains code to simulate scenarios under 3-dimensional grids.
+  - `ListOrder.R` contains code to list out all possible orderings for the 12 combination example.
 - The folder `RData` contains RDatas 
   - `148Orderings.RData` contains all 148 possible orderings for the 12 combinations example.
   - `OrderScen_12combo.RData` contains the 47 order-scenarios for the 12 combinations example.
