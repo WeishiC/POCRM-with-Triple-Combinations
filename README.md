@@ -6,6 +6,7 @@ This repository contains code used for the paper _Applying the partial order con
   - `Orderings.R` contains code to simulate all possible orderings.
 - The folder `RData` contains RDatas 
   - `148Orderings.RData` contains all 148 possible orderings for the 12 combinations example.
+  - `OrderScen_12combo.RData` contains the 47 order-scenarios for the 12 combinations example.
 
 ## Dependencies
 This project is written in R. Key R packages used (as seen in the code) include:
