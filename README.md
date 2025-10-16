@@ -5,6 +5,7 @@ This repository contains code used for the paper _Applying the partial order con
 - The folder `R functions` contains R function files:
   - `SimScen.R` contains code to simulate scenarios under 3-dimensional grids.
   - `ListOrder.R` contains code to list out all possible orderings for the 12 combination example.
+  - `Adding.R` contains the code to implement the *Adding* step of the *Adding-Refining algorithm*.
 - The folder `RData` contains RDatas 
   - `148Orderings.RData` contains all 148 possible orderings for the 12 combinations example.
   - `OrderScen_12combo.RData` contains the 47 order-scenarios for the 12 combinations example.
