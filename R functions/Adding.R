@@ -7,6 +7,7 @@ Adding <- function(nsims, MTC_list, labels, dim, TTL, L=12, subset=NULL) {
   all.scen <- list()
   order_selected <- list()
   order_selected[[1]] <- 1:L
+  if(is.vector(MTC_list)) MTC_list <- matrix(MTC_list, nrow=1)
   u <- 1
   for(c in 1:nrow(MTC_list)){
     print(c)
