@@ -15,6 +15,8 @@ This repository contains code used for the paper _Applying the partial order con
   - `AROrd.RData` contains a list of 10 sets of orderings obtained from the Adding-Refining algorithm for the 12 combinations example.
   - `InconsisOrd.RData` contains an inconsistent choice of 4 orderings for the 12 combinations example.
   - `OrderScen_12combo.RData` contains the 47 order-scenarios for the 12 combinations example.
+  - `WeightAR.RData` contains a list of 10 sets of prior weights for the Adding-Refining orderings based on n.consis.
+  - `Weight148.RData` contains the prior weights for all 148 orderings based on n.consis.
   - `SimScen.RData` contains the 12 scenarios used for the simulation study in the paper.
 
 ## Dependencies
