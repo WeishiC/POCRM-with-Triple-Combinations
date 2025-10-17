@@ -9,6 +9,8 @@ This repository contains code used for the paper _Applying the partial order con
   - `POCRM.R` contains the code to implement and simulate under 2-stage likelihood-based POCRM (Wages et al, 2011).
 - The folder `RData` contains RDatas 
   - `148Orderings.RData` contains all 148 possible orderings for the 12 combinations example.
+  - `ScenAgnosticOrd.RData` contains 8 scenario-agnostic orderings for the 12 combinations example.
+  - `ScenSpecOrd.RData` contains 4 scenario-agnostic orderings for the 12 combinations example.
   - `OrderScen_12combo.RData` contains the 47 order-scenarios for the 12 combinations example.
   - `SimScen.RData` contains the 12 scenarios used for the simulation study in the paper.
 
