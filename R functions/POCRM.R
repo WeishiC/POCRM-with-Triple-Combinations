@@ -106,7 +106,7 @@ pocrm <- function(p0, p.skel, ttr, cohortsize, ncohort, x0, mprior.tox=NULL){
   RMSE <- sqrt(mean((p0-ptox.hat)^2))
   if(comb.curr!=0) comb.select[comb.curr] <- comb.select[comb.curr] + 1
   return(list(comb.select=comb.select, tox.data=y, n.tox=sum(y), pt.allocation=n, 
-              ptox.hat=ptox.hat, x=x, RMSE=RMSE, p.order = p.order))
+              ptox.hat=ptox.hat, x=x, RMSE=RMSE))
 }
 
 #
