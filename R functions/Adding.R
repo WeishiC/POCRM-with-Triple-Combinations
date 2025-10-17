@@ -1,7 +1,7 @@
 #
 #  The Adding step of the Adding-Refining algorithm
 #
-Adding <- function(nsims, MTC_list, labels, dim, TTL, L=12) {
+Adding <- function(nsims, MTC_list, labels, dim, TTL, L=12, subset=NULL) {
   # MTC_list: matrix, each row gives the location of the MTC
   # labels: vector of length=nrow(MTC_list), labels of the MTCs
   all.scen <- list()
@@ -14,7 +14,7 @@ Adding <- function(nsims, MTC_list, labels, dim, TTL, L=12) {
     all.scen[[c]] <- list()
     scen.store <- t(sapply(1:nsims, function(i) {
       y <- sim.scen(sim=1, MTC=MTC_list[c,], dim=dim, TTL=TTL)
-      y <- y[c(1, 4, 5, 8, 9, 11, 12, 17, 20, 21, 23, 24)]
+      if(!is.null(subset)) y <- y[subset]
       y
     }))
     colnames(scen.store) <- paste0("d", 1:L)
