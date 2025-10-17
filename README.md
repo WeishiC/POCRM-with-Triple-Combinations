@@ -20,6 +20,7 @@ This repository contains code used for the paper _Applying the partial order con
 This project is written in R. Key R packages used (as seen in the code) include:
 - dfcrm
 - pocrm
+- nnet
 - combinat
 - tidyverse
 
