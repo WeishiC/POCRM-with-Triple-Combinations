@@ -1,7 +1,6 @@
 #
 #  The Adding step of the Adding-Refining algorithm
 #
-source("SimScen.R")
 Adding <- function(nsims, MTC_list, labels, dim, TTL, L=12) {
   # MTC_list: matrix, each row gives the location of the MTC
   # labels: vector of length=nrow(MTC_list), labels of the MTCs
@@ -95,30 +94,30 @@ Adding <- function(nsims, MTC_list, labels, dim, TTL, L=12) {
 #
 # For the 12 combination example
 #
-MTC_list <- matrix(c(1, 1, 1,
-                     1, 2, 1, 
-                     2, 2, 1, 
-                     2, 3, 1, 
-                     3, 3, 1,
-                     2, 4, 1,
-                     3, 4, 1,
-                     2, 2, 2, 
-                     2, 3, 2,
-                     3, 3, 2, 
-                     2, 4, 2, 
-                     3, 4, 2), byrow=TRUE, ncol=3)
-labels <- 1:12
-dim <- c(3, 4, 2)
-TTL <- 0.25
-L <- 12
-nsims <- 8000
+#MTC_list <- matrix(c(1, 1, 1,
+#                     1, 2, 1, 
+#                     2, 2, 1, 
+#                     2, 3, 1, 
+#                     3, 3, 1,
+#                     2, 4, 1,
+#                     3, 4, 1,
+#                     2, 2, 2, 
+#                     2, 3, 2,
+#                     3, 3, 2, 
+#                     2, 4, 2, 
+#                     3, 4, 2), byrow=TRUE, ncol=3)
+#labels <- 1:12
+#dim <- c(3, 4, 2)
+#TTL <- 0.25
+#L <- 12
+#nsims <- 8000
 
 # the order-scenarios stored in *OrderScen*
 # the orderings included by the adding step stored in *OrderAdding*
-adding.out <- Adding(nsims=8000, MTC_list, labels=1:12, dim, TTL=0.25, L=12)
-adding.out$n.scen
-adding.out$n
-OrderScen <- adding.out$OrderScen
-OrderAdding <- adding.out$order.adding
+#adding.out <- Adding(nsims=8000, MTC_list, labels=1:12, dim, TTL=0.25, L=12)
+#adding.out$n.scen
+#adding.out$n
+#OrderScen <- adding.out$OrderScen
+#OrderAdding <- adding.out$order.adding
 
                                  
