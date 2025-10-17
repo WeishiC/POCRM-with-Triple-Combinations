@@ -6,6 +6,7 @@ This repository contains code used for the paper _Applying the partial order con
   - `SimScen.R` contains code to simulate scenarios under 3-dimensional grids.
   - `ListOrder.R` contains code to list out all possible orderings for the 12 combination example.
   - `Adding.R` contains the code to implement the *Adding* step of the *Adding-Refining algorithm*.
+  - `Refining.R` contains the code to implement the *Refining* step of the *Adding-Refining algorithm*. It is also used to specify prior weights based on n.consis.
   - `POCRM.R` contains the code to implement and simulate under 2-stage likelihood-based POCRM (Wages et al, 2011).
 - The folder `RData` contains RDatas 
   - `148Orderings.RData` contains all 148 possible orderings for the 12 combinations example.
