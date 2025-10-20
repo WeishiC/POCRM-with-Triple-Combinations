@@ -9,6 +9,7 @@
 ############################################################
 Refining <- function(max.sim, all.scen, all.orderings, S, order.fix=NULL, TTL=0.25) {
   if(is.vector(all.orderings)) all.orderings <- matrix(all.orderings, nrow=1)
+  if(is.vector(all.scen)) all.scen <- matrix(all.scen, nrow=1)
   # relabelling the combinations
   relabel <- function(ordering, label) {
     new.ordering <- numeric()
