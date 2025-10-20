@@ -18,6 +18,7 @@ This repository contains code used for the paper _Applying the partial order con
   - `WeightAR.RData` contains a list of 10 sets of prior weights for the Adding-Refining orderings based on n.consis.
   - `Weight148.RData` contains the prior weights for all 148 orderings based on n.consis.
   - `SimScen.RData` contains the 12 scenarios used for the simulation study in the paper.
+  - `RandScen.RData` contains $10^4$ random scenarios simulated according to Clertant and O’Quigley (2017).
 
 ## Dependencies
 This project is written in R. Key R packages used (as seen in the code) include:
@@ -30,6 +31,7 @@ This project is written in R. Key R packages used (as seen in the code) include:
 ## References
 - Chen, W., Liu, L., Wages, N.A. and Mozgunov, P. *Applying the partial order continual reassessment method to high-dimensional treatment combinations.* 2025
 - Wages, N.A., Conaway, M.R. and O'Quigley, J. *Dose-finding design for multi-drug combinations.* Clinical Trials 2011; 8: 380-389.
+- Clertant, M., and J. O’Quigley. 2017. *Semiparametric dose finding methods*. JRSSB 79 (5): 1487–1508. 
 
 ##  License
 MIT License. See `LICENSE` file for details.
